@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.UnitedAhleSunnah.Repository.SubCategoryRepository;
 import com.UnitedAhleSunnah.model.SubCategory;
 
-@Controller
+@RestController
 public class CategoryController {
 
 	@Autowired
